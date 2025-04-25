@@ -1,0 +1,52 @@
+:root {
+  /* 基本顏色設定
+   * unocss.config.ts 記得設定相同的顏色
+   */
+  /* 主要 */
+  --primary-color: #6750A4;
+  /* 次要 */
+  --secondary-color: #625B71;
+  /* 強調 */
+  --accent-color: #7D5260;
+  /* 成功 */
+  --success-color: #4CAF50;
+  /* 錯誤 */
+  --danger-color: #B3261E;
+  /* 警告 */
+  --warning-color: #F2B400;
+  /* 訊息 */
+  --info-color: #1C7ED6;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  overflow: hidden;
+}
+
+#app {
+  margin: auto;
+  max-width: 1440px;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+a:visited {
+  color: unset;
+}
+
+ul:has(li) {
+  padding-left: unset;
+}
+
+li {
+  list-style: none;
+}

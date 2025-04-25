@@ -1,0 +1,38 @@
+{
+  "name": "template-vue",
+  "type": "module",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --open",
+    "preview": "vite preview --open",
+    "build": "vite build",
+    "lint": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.5",
+    "@unhead/vue": "^1.9.16",
+    "@unocss/eslint-config": "^0.62.3",
+    "@unocss/reset": "^0.61.9",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vue/tsconfig": "^0.5.1",
+    "@vueuse/core": "^10.11.1",
+    "await-to-js": "^3.0.0",
+    "axios": "^1.7.3",
+    "element-plus": "^2.8.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "npm-run-all2": "^6.2.0",
+    "pinia": "^2.1.7",
+    "remeda": "^2.11.0",
+    "typescript": "~5.4.0",
+    "unocss": "^0.61.9",
+    "unplugin-auto-import": "^0.18.2",
+    "unplugin-vue-components": "^0.27.4",
+    "unplugin-vue-router": "^0.10.2",
+    "vite": "^5.3.1",
+    "vue": "^3.4.29",
+    "vue-router": "^4.3.3",
+    "vue-tsc": "^2.0.21",
+    "zod": "^3.23.8"
+  }
+}
